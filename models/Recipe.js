@@ -7,4 +7,5 @@ const RecipeSchema =  mongoose.Schema({
     time: { type: String, required: true },
   }, { timestamps: true });
 const Recipe = mongoose.model('Recipe', RecipeSchema);
+
 export default Recipe;
